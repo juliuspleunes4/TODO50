@@ -1,6 +1,6 @@
 # TODO50
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://www.youtube.com/watch?v=wCN-_jE_ODQ
 
 #### Description:
 
@@ -47,4 +47,4 @@ TODO50 is a simple, yet powerful to-do list app that uses modern technology like
 
 The design is kept clean, with clear buttons and an easy-to-navigate interface. Using Firebase for storing data ensures that the user experience is smooth, even when switching between different devices.
 
-You can view the code on GitHub via this link: <GITHUB LINK>
+You can view the code on GitHub via this link: https://github.com/juliuspleunes4/TODO50/tree/main
