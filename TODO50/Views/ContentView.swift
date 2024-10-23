@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @StateObject var viewModel = ContentViewViewModel() // observes changes in ContentViewViewModel
 
-#Preview {
-    ContentView()
+    var body: some View {
+        Group {
+            if viewModel.isSignedIn {
+                // show the to-do list view when the user is signed in
+                TODOListView()
+            } else {
+                // show the login view when the user is not signed in
+                LoginView()
+            }
+        }
+    }
 }
